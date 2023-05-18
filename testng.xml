@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <parameter name = "projectName" value="Nexage"/>
+        <parameter name = "projectNameToCreate" value="lastHope"/>
+        <parameter name = "paramVariantName" value="variant"/>
+        <parameter name = "paramVariantValue" value="1"/>
+
+        <classes>
+            <class name="tests.TestVariantA"/>
+        </classes>
+    </test>
+</suite>
+
+
